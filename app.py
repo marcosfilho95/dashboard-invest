@@ -440,14 +440,6 @@ with tab_buffett:
     - Excelentes empresas (15% a.a): ≈ **R$ {fmt_brl(vf_15)}**
     """)
 
-
-    st.markdown(f"""
-    **Exemplo (30 anos, investimento inicial de R$ {vp_ex:,.0f}):**
-    - Renda Fixa (8% a.a): ≈ **R$ {vf_08:,.0f}**  
-    - Bolsa (12% a.a): ≈ **R$ {vf_12:,.0f}**  
-    - Excelentes empresas (15% a.a): ≈ **R$ {vf_15:,.0f}**
-    """)
-
     # ===================
     # Day Trade / Robôs
     # ===================
