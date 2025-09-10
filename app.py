@@ -218,7 +218,7 @@ with tab_view:
 # 🏆 RANKING
 # -------------------------
 with tab_rank:
-    classe_name = st.selectbox("Universo para ranking", list(UNIVERSE.keys()), key="rank_uni")
+    classe_name = st.selectbox("Classe de ativo ranking", list(UNIVERSE.keys()), key="rank_uni")
     tickers = UNIVERSE[classe_name]
 
     rows_all = []  # guarda todos
