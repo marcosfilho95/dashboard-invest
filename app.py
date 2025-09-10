@@ -379,10 +379,16 @@ with tab_best:
     st.dataframe(df_f, use_container_width=True)
     st.plotly_chart(px.bar(df_f, x="Ticker", y="Score", title="Top 10 FIIs (Score)"), use_container_width=True)
 
-    # =========================
+# =========================
 # Rodapé
 # =========================
-
+st.markdown("""
+---
+<p style='text-align: center; font-size:14px; color:gray;'>
+Desenvolvido por <b>Marcos Antonio Felix</b>, visando um estudo acadêmico.  
+Este projeto não possui caráter de recomendação de investimentos.
+</p>
+""", unsafe_allow_html=True)
 # -------------------------
 # 📖 Estratégia Buy & Hold
 # -------------------------
